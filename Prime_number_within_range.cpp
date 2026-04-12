@@ -1,5 +1,5 @@
 # include <iostream>
-using name space std;
+using namegspace std;
 int main(){
     int n1,n2; 
     cout<<"Enter the range: ";
