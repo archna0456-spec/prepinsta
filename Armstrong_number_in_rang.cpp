@@ -1,6 +1,6 @@
 #include<bits/stdc++.h> 
 #include<math.h> 
-using name space std;
+using namespace std;
 
 // number of digits in a number is order
 int order(int x)
