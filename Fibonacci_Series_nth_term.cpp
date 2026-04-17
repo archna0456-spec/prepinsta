@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std; 
-
 int main()
 {
     int num = 15;
@@ -19,6 +18,5 @@ int main()
         
         cout << nextTerm << ", ";
     }
-
     return 0;
 }
