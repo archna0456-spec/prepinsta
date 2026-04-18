@@ -3,7 +3,6 @@ using namespace std;
 int main ()
 {
     int num = 6, fact = 1;
-    
     // Factorial of negative number doesn't exist
     // Read more here - https://www.quora.com/Is-the-factorial-of-a-negative-number-possible
     if(num < 0)
@@ -13,7 +12,6 @@ int main ()
         for(int i = 1; i <= num; i++)
             fact = fact * i;
     }
-    
     cout << "Fact " << num << ": " << fact;
 }
 // Time complexity: O(N)
