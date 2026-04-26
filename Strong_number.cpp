@@ -11,7 +11,6 @@ int facto(int n){
 }
 
 int detectStrong(int num){
-    
     int digit, sum = 0;
     int temp = num;
     
@@ -22,18 +21,14 @@ int detectStrong(int num){
         sum = sum + facto(digit);
         temp /= 10;
     }
-    
     // returns 1 if both equal else 0
     return sum == num;
-    
 }
 int main ()
 {
     int num = 145;
-    
     if(detectStrong(num))
         cout << num << " is Strong Number";
     else
         cout << num << " is Not Strong Number";
-
 }
