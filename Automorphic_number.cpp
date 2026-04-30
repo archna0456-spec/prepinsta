@@ -18,7 +18,6 @@ int isAutomorphic(int n)
     // if reaches here means automorphic number
     return 1;
 }
-
 int main ()
 {
     int n = 376, sq = n * n ;
@@ -27,8 +26,6 @@ int main ()
         cout << "Num: "<< n << ", Square: " << sq << " - is Automorphic";
     else
         cout << "Num: "<< n << ", Square: " << sq << " - is not Automorphic";
-    
-
 }
 // Time complexity: O(N)
 // Space complexity: O(1)
