@@ -9,7 +9,9 @@
 
         int num,num2=0;
 
-        cout<<"Enter number: "; //user input cin>>num;
+        cout<<"Enter number: "; 
+        
+        //user input cin>>num;
 
         //checking for 0 input
 
@@ -36,21 +38,14 @@
         }
 
        num = 0 ; // Store the reverse of num2
-
        while(num2>0){
-
         int r = num2%10;
-
         num= num*10 + r;
-
         num2 /= 10;
 
       }
-
         //converted number
 
         cout<<"Converted number is: "<<num;
-
         return 0;
-
     }
